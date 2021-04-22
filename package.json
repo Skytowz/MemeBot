@@ -1,0 +1,36 @@
+{
+  "name": "bot-sound-video-box",
+  "version": "0.0.0",
+  "description": "Sound and video box",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "forever": "forever -w index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skytowz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skytowz/NotifOnePiece.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "bugs": {
+    "url": "https://github.com/Skytowz/NotifOnePiece/issues"
+  },
+  "homepage": "https://github.com/Skytowz/NotifOnePiece#readme",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "discord.js": "^12.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "node": "^15.12.0",
+    "node-fetch": "^2.6.1",
+    "ytdl-core": "^4.5.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
