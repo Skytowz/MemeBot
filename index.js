@@ -1,10 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
+require('dotenv').config()
 
 const fs = require('fs');
 
 //client.login("Njg1NTQyMzQxNDM1NzE5Njg2.XmKLDg.3G87GK1Y6nFy3gisErOmF_Q_uY0");
-client.login("ODI5ODI5OTMxOTU3MjIzNDI1.YG91WQ.0cP8It2HRevvlwJlQ4xhjUYe384");
+client.login(process.env.TOKEN);
 client.commands = new Discord.Collection();
 
 fs.readdir("./Commandes/",(error,f) => {

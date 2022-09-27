@@ -24,6 +24,7 @@
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.20",
     "discord.js": "^12.5.3",
+    "dotenv": "^16.0.2",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "^0.0.1-security",
     "node-fetch": "^2.6.1",
@@ -36,5 +37,4 @@
     "node": "^16.*",
     "npm": "^8.*"
   }
-
 }
