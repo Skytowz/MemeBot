@@ -26,11 +26,15 @@
     "discord.js": "^12.5.3",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "^0.0.1-security",
-    "node": "^16.0.0",
     "node-fetch": "^2.6.1",
     "ytdl-core": "^4.5.0"
   },
   "devDependencies": {
     "prettier": "2.2.1"
+  },
+  "engines": {
+    "node": "^16.*",
+    "npm": "^8.*"
   }
+
 }
